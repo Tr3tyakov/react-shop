@@ -1,0 +1,27 @@
+.basket {
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0 0 0 24px;
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+.basket__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.basket--active:after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: -4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eb6960;
+}

@@ -1,0 +1,112 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 100px 0 0 0;
+
+  background: linear-gradient(
+    249.28deg,
+    #ffffff 0.36%,
+    #b9b9b9 46.51%,
+    #ffffff 99.38%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.527));
+  z-index: -5;
+}
+
+.shop {
+  display: flex;
+}
+.shop-navigation {
+  padding: 18px 10px 18px 0;
+  min-width: 256px;
+
+  &__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 22px 0 13px 0;
+  }
+}
+
+.shop-subtitle {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 5px 0;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  &:hover {
+    background: #bfbfbf6c;
+    border-radius: 5px;
+  }
+}
+
+.subtitle--active {
+  padding: 10px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 16px;
+    right: 10px;
+    width: 2px;
+    background: #eb6960;
+  }
+  &:hover {
+    background: black;
+  }
+}
+
+.shop-wrapper {
+  width: 100%;
+  margin: 0 0 0 30px;
+}
+.navigation-btns {
+  padding: 18px 10px 3px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__btn {
+    margin: 0 20px 8px 0;
+    width: 217px;
+    height: 36px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.navigation-btns__btn--active {
+  color: white;
+  background-color: black;
+}
+
+//products
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

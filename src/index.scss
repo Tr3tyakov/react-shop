@@ -1,0 +1,134 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-resizer {
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 3px;
+  background-color: #000000be;
+}
+
+.container {
+  max-width: 1535px;
+  padding: 0 24px 30px 24px;
+  margin: 0 auto;
+}
+
+.loading {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes ldio-tltmi1hyzt {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ldio-tltmi1hyzt div {
+  position: absolute;
+  animation: ldio-tltmi1hyzt 1s linear infinite;
+  width: 160px;
+  height: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #eb6960;
+  transform-origin: 80px 82px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.225));
+}
+.loadingio-spinner-eclipse-e2sdyvuae0q {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+}
+.ldio-tltmi1hyzt {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-tltmi1hyzt div {
+  box-sizing: content-box;
+}
+.hr-line {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+  background-color: #919191;
+}
+
+.slick-dots {
+  bottom: -28px;
+}
+.slick-dots li button:before {
+  font-size: 18px;
+}
+
+// .slick-vertical .slick-slide {
+//   border: none;
+// }
